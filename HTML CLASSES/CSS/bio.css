@@ -1,0 +1,171 @@
+body{
+    background-color: #333;
+    margin: 0%;
+}
+
+h1{
+    color: #90C4CF; 
+    margin-left: 20px; 
+    text-align: center;
+}
+
+h3{
+    color: lightyellow;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+}
+
+h4{
+    color: #90C4CF;
+    text-align: left;
+    text-decoration: underline;
+}
+
+p{
+    color: lightyellow; 
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+
+#topnav {
+    background-color: #333;
+    overflow: hidden;
+    width: 100%;
+}
+  
+#topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+  
+#topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+  
+#topnav a.active {
+    background-color: blue;
+    color: white;
+}
+/* END OF CSS FOR NAV */
+
+#wrapper {   
+    display: inline-flex;   
+    justify-content: center; 
+    float: right;
+}
+
+#wrapper i {   
+    /* padding: 10px;    */
+    text-shadow: 0px 6px 8px rgba(0, 0, 0, 0.6);   
+    transition: all ease-in-out 150ms; 
+}
+
+#wrapper a:nth-child(1) {   
+    color: gray; 
+} 
+
+#wrapper a:nth-child(2) {   
+    color: gray; 
+} 
+
+#wrapper a:nth-child(3) {   
+    color: gray; 
+} 
+
+#wrapper a:nth-child(4) {   
+    color: gray; 
+}
+
+#wrapper a:nth-child(5) {   
+    color: gray; 
+}
+
+#wrapper a:nth-child(6) {   
+    color: gray; 
+}
+
+#wrapper a:nth-child(7) {   
+    color: gray; 
+}
+
+#wrapper i:hover {   
+    margin-top: -3px;
+    text-shadow: 0px 14px 10px rgba(0, 0, 0, 0.4); 
+}
+/* END OF CSS FOR SOCIAL LINKS */
+
+.hero{
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    /* background: #333; */
+    color: white;
+    margin-bottom: 5px;
+    position: relative;
+    overflow: hidden;
+    min-height: 80vh;
+}
+    
+#burnabox{
+    word-wrap: normal;
+    width: 250px;
+    height: 250px;
+    float: left;
+    margin-right: 5px;
+}
+
+#burnabox2{
+    word-wrap: normal;
+    width: 350px;
+    height: 250px;
+    float: left;
+    margin-right: 5px;
+}
+
+#imagebox{
+    width: 700px;
+    height: auto;
+    float: left;
+    padding: 5px;
+}
+
+#imagebox2{
+    width: 600px;
+    height: auto;
+    float: right;
+    padding: 5px;
+}
+
+
+#header {
+    background-color: none;
+    width: 100%;
+    height: 60px;
+    margin: 10px auto;
+    font-size: 12px;
+    font-family: sans-serif;
+    float: left;
+}
+
+
+#section {
+    float: left;
+    padding:5px; 
+    text-align: left;
+    font-family: cursive;
+    /* font-weight: bold; */
+}
+
+#mainfooter{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    position: relative;
+}
